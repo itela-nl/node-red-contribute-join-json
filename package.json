@@ -1,0 +1,21 @@
+{
+    "name": "node-red-contrib-join-json",
+    "node-red": {
+        "nodes": {
+            "obis-decoder": "join-json.js"
+        }
+    },
+    "dependencies": {},
+    "version": "0.0.1",
+    "author": {
+        "name": "Edwin Noorlander",
+        "email": "e.noorlander@itela.nl",
+        "url": "https://itela.nl"
+    },
+    "displayName": "Join json",
+    "description": "This jonts two JSON msg.payload's",
+    "repository": {
+        "url": "https://github.com/itela-nl/node-red-contribute-join-json"
+    },
+    "license": "GNU"
+}

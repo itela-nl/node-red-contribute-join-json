@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    RED.nodes.registerType('join-json',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:2,
+        outputs:1,
+        icon: "js.png",
+        label: function() {
+            return this.name||"join-json";
+        }
+    });
+</script>
+
+<script type="text/html" data-description-name="join-json">
+    <p>A simple node that converts the message payloads into obis JSON. Made by Edwin Noorlander.</p>
+</script>
+
+<script type="text/html" data-template-name="join-json">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="join-json">
+    <p>You can use a serial in NODE connected to your P1 poort on the smart powermeter.</p>
+</script>
